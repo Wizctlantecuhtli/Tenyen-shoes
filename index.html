@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--Custom css file link-->
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <!--Leaflet css link-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="	crossorigin=""/>	
+
+        <!--Swiper css link-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+        <title>TenYen shoe's</title>
+    </head>
+    <body>
+        <!--Header section starts-->
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <header class="header">
+            <a href="#" class="logo">TenYen</a> 
+            <nav class="navbar">
+                <a href="#banner">Inicio</a>
+                <a href="#products">Productos</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <p class="credit">&copy; copyright @ 2022</p>
+        </header>
+        <!--Header section ends-->
+
+        <!-- Banner section starts-->
+        <section class="banner" id="banner">
+            <div class="content">
+                <span>Descuento del 10%</span>
+                <h3>Nike SB Zoom Blazer Mid Premium</h3>
+                <p>Calzado de skateboarding</p>
+                <a href="#contact" class="btn">Comprar</a>
+            </div>
+            <div class="image">
+                <img src="images/banner-product02.png" alt="">
+            </div>
+        </section>
+        <!-- Banner section ends-->
+
+        <!--Products section starts-->
+        <section class="products" id="products">
+            <h2 class="heading"><span id="span">Produc</span><span id="span2">tos</span></h2>
+            <div class="swiper products-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <img src="images/product-imgS01.png" alt="">
+                        <h3>Jordan</h3>
+                        <div class="btn" data-product="product-s1">ver detalles</div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="images/product-imgS02.png" alt="">
+                        <h3>Nike</h3>
+                        <div class="btn" data-product="product-s2">ver detalles</div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="images/product-imgS03.png" alt="">
+                        <h3>Nike</h3>
+                        <div class="btn" data-product="product-s3">ver detalles</div>
+                    </div>
+                </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+
+                    </div>
+        </section>
+        <!--Products section ends-->
+        <!--Product preview section starts-->
+        <section class="products-preview-container">
+            <div class="product-preview" data-target="product-s1">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-imgS01-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Jordan</h3>
+                    <p>Calzado de básquetbol
+                        Hombre
+
+                        $2,999</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar compra</a>
+                </div>
+            </div>
+
+
+            <div class="product-preview" data-target="product-s2">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-imgS02-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nike Air</h3>
+                    <p>Huarache
+                        Calzado para mujer
+
+                        $2,799</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar compra</a>
+                </div>
+            </div>
+
+            <div class="product-preview" data-target="product-s3">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-imgS03-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>LeBron 18</h3>
+                    <p>SE x Space Jam: A New Legacy
+                        Calzado para bebé e infantil
+                        $1,399</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar compra</a>
+                </div>
+            </div>
+
+
+            <div class="product-preview" data-target="product-1">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-img01-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tenis Converse</h3>
+                    <p>Chuck 70 Vintage Canvas
+                        Mujer
+                        MODELO 172141C
+
+                        $1,599.00</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar compra</a>
+                </div>
+            </div>
+
+            <div class="product-preview" data-target="product-2">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-img02-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tenis Vans</h3>
+                    <p>
+                        Classic Slip-On Black Checkerboard
+                        Hombres
+                        MODELO VN000EYEBPJ
+
+                        $1,099.00
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar compra</a>
+                </div>
+            </div>
+
+            <div class="product-preview" data-target="product-3">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-img03-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tenis Nike</h3>
+                    <p>
+                        Blazer Mid 77 Jumbo Black Bright Crimson
+                        Niña/o.
+                        MODELO DD3111-001
+
+                        $2,499.00
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar comprar</a>
+                </div>
+            </div>
+
+            <div class="product-preview" data-target="product-4">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-img04-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tenis Vans</h3>
+                    <p>Classics Slip-On Cultivate Care
+                        Mujer
+                        MODELO VN000XG88MC
+
+                        $1,399.00</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar comprar</a>
+                </div>
+            </div>
+
+            <div class="product-preview" data-target="product-5">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-img05-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tenis Puma</h3>
+                    <p>Suede Bloc WTFormstrip
+                        Niña/o
+                        MODELO 381184 01
+
+                        $1,999.00</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar comprar</a>
+                </div>
+            </div>
+
+            <div class="product-preview" data-target="product-6">
+                <div class="fas fa-times"></div>
+                <div class="image">
+                    <img src="images/product-img06-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tenis Reebok</h3>
+                    <p>Reebok Question Mid USA
+                        Hombres
+                        MODELO H01281
+
+                        $3,599.00</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <a href="#" class="btn">Agendar comprar</a>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!--Product preview section ends-->
+        <!--Gallery section starts-->
+        <section class="gallery">
+            <div class="filters filter-button-group">
+                <h2 class="heading"><span id="span2">Gale</span><span id="span">ria</span></h2>
+                <ul class="gallery-list">
+                    <h4>
+                        <li class="active list" data-filter="*">Todo</li>
+                        <li class="list" data-filter=".men">Hombres</li>
+                        <li class="list" data-filter=".women">Mujeres</li>
+                        <li class="list" data-filter=".kids*">Niños</li>
+                    </h4>
+                </ul>
+            </div>
+
+            <div class="container grid">
+                <div class="content women item">
+                    <img src="images/product-img01.png" class="btn-preview" data-product="product-1" alt="">
+                </div>
+
+                <div class="content men item">
+                    <img src="images/product-img02.png" class="btn-preview" data-product="product-2" alt="">
+                </div>
+
+                <div class="content kids item">
+                    <img src="images/product-img03.png" class="btn-preview" data-product="product-3" alt="">
+                </div>
+
+                <div class="content women item">
+                    <img src="images/product-img04.png" class="btn-preview" data-product="product-4" alt="">
+                </div>
+
+                <div class="content kids item">
+                    <img src="images/product-img05.png" class="btn-preview" data-product="product-5" alt="">
+                </div>
+                <div class="content men item">
+                    <img src="images/product-img06.png" class="btn-preview" data-product="product-6" alt="">
+                </div>
+            </div>
+        </section>
+        <!--Gallery section ends-->
+        <!--Contact section starts-->
+        <section class="contact" id="contact">
+            <h2 class="heading"><span id="span">Conta</span><span id="span2">cto</span></h2>
+            <div class="row">
+            <!-- <form action="">
+                <input type="text" placeholder="Nombre" class="box">
+                <input type="email" placeholder="Correo" class="box">
+                <input type="number" placeholder="Telefono" class="box">
+                <textarea placeholder="Mensaje" cols="30" rows="10" class="box"></textarea>
+                <input type="submit" value="Enviar" class="btn">
+                </form> -->
+                <div class="contact-location">
+                    <h3 class="ml-10" >Lugares de entrega</h3>
+                    <table class="grapgh ml-5">
+                        <thead>
+                            <tr>
+                                <th>Puntos de entrega</th>
+                                <th>Punto fijo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Luneas - Viernes<br>
+                                13:00 - 20:00 hrs.</td>
+                            <td>Sabado y Domingo<br>
+                                09:00 - 15:00 hrs.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                <select name="select-location" id="select-location" class="box ml-12">
+                    <option value="-1">Seleccione un lugar:</option>
+                    <option value="22.166966726919902, -100.97661457839469">Soriana La paz.</option>
+                    <option value="22.169728865801346, -100.96214137882441">Bodega Aurrera Acceso norte.</option>	
+                    <option value="22.151254267991128, -100.97412302884516">Plaza del Carmen.</option>
+                    <option value="22.141203938843823, -100.9121957441877">Tianguis(El rastro).</option>
+                </select>
+                <div class="ml-2" id="map"></div>
+            </div>
+
+            <div class="contact-info">
+                <h3 class="ml-10" >Agendar compra</h3>
+                <p class="grapgh">
+                    Si desea recibir más información de nuestros productos o agendar una compra con nosotros, escríbanos un correo electrónico a la siguiente dirección o al numero telefonico y estaremos respondiendo a su mensaje a la mayor brevedad.
+                </p>
+                <div class="icons ml-5">
+                    <i class="fas fa-globe-americas"></i>
+                    <div class="info">
+                        <p>San Luis Potosí,S.L.P, México.</p>
+                    </div>
+                </div>
+                <div class="icons ml-5">
+                    <i class="far fa-envelope"></i>
+                    <div class="info">
+                        <p>Tenyen@outlook.es</p>
+                    </div>
+                </div>
+                <div class="icons ml-5">
+                    <i class="fab fa-whatsapp"></i>
+                    <div class="info">
+                        <p>(444)*-**-**-**)</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+        <!--Contact section ends-->
+        <div id="preloader"></div>
+        <a href="#" class="back-to-top "><i class="fas fa-arrow-up"></i></a>
+
+        <!--Footer section starts-->
+        <footer class="footer">
+            <div class="share .bottom">
+                <a href="" class="fab fa-facebook-f"></a>
+                <a href="" class="fab fa-instagram"></a>
+            </div>
+        </footer>
+        <!--Footer section starts-->
+
+        <!--Script files-->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+        <!--Leaft js link-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+        <!--Jquery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Lightbox2 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.js" integrity="sha512-UHlZzRsMRK/ENyZqAJSmp/EwG8K/1X/SzErVgPc0c9pFyhUwUQmoKeEvv9X0uNw8x46FxgIJqlD2opSoH5fjug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+        <!--Custom js file link-->
+        <script src="js/script.js"></script>
+    </body>
+</html>
