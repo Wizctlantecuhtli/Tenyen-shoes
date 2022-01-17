@@ -10,6 +10,7 @@
 
         <!--Custom css file link-->
         <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/estilo400px.css">
 
         <!--Leaflet css link-->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="	crossorigin=""/>	
@@ -53,7 +54,7 @@
 
         <!--Products section starts-->
         <section class="products" id="products">
-            <h2 class="heading"><span id="span">Produc</span><span id="span2">tos</span></h2>
+            <h2 class="heading"><span id="span">Art</span><span id="span2">iculos</span></h2>
             <div class="swiper products-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide">
@@ -356,8 +357,8 @@
                 <input type="submit" value="Enviar" class="btn">
                 </form> -->
                 <div class="contact-location">
-                    <h3 class="ml-10" >Lugares de entrega</h3>
-                    <table class="grapgh ml-5">
+                    <h3 class="ml-h3" >Entregas</h3>
+                    <table class="grapgh ml-table">
                         <thead>
                             <tr>
                                 <th>Puntos de entrega</th>
@@ -373,34 +374,34 @@
                             </tr>
                         </tbody>
                     </table>
-                <select name="select-location" id="select-location" class="box ml-12">
+                <select name="select-location" id="select-location" class="box ml-list">
                     <option value="-1">Seleccione un lugar:</option>
                     <option value="22.166966726919902, -100.97661457839469">Soriana La paz.</option>
                     <option value="22.169728865801346, -100.96214137882441">Bodega Aurrera Acceso norte.</option>	
                     <option value="22.151254267991128, -100.97412302884516">Plaza del Carmen.</option>
                     <option value="22.141203938843823, -100.9121957441877">Tianguis(El rastro).</option>
                 </select>
-                <div class="ml-2" id="map"></div>
+                <div class="ml-map" id="map"></div>
             </div>
 
             <div class="contact-info">
-                <h3 class="ml-10" >Agendar compra</h3>
-                <p class="grapgh">
+                <h3 class="ml-h3" >Agendar</h3>
+                <p class="grapgh ml-table">
                     Si desea recibir más información de nuestros productos o agendar una compra con nosotros, escríbanos un correo electrónico a la siguiente dirección o al numero telefonico y estaremos respondiendo a su mensaje a la mayor brevedad.
                 </p>
-                <div class="icons ml-5">
+                <div class="icons ">
                     <i class="fas fa-globe-americas"></i>
                     <div class="info">
                         <p>San Luis Potosí,S.L.P, México.</p>
                     </div>
                 </div>
-                <div class="icons ml-5">
+                <div class="icons ">
                     <i class="far fa-envelope"></i>
                     <div class="info">
                         <p>Tenyen@outlook.es</p>
                     </div>
                 </div>
-                <div class="icons ml-5">
+                <div class="icons ">
                     <i class="fab fa-whatsapp"></i>
                     <div class="info">
                         <p>(444)*-**-**-**)</p>
@@ -411,6 +412,7 @@
         </div>
         </section>
         <!--Contact section ends-->
+
         <div id="preloader"></div>
         <a href="#" class="back-to-top "><i class="fas fa-arrow-up"></i></a>
 
