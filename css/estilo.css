@@ -681,8 +681,8 @@ section {
     font-size: 85%;
   }
   .product-preview .image img {
-    height: 40rem;
-    width: 15rem;
+    width: 20rem;
+    height: 25rem;
   }
   .list {
     background: gray;
@@ -738,7 +738,11 @@ section {
     font-size: 3rem;
   }
   .products .slide img {
-    height: 20rem;
+    height: 30rem;
+  }
+  .product-preview .image img {
+    height: 30rem;
+    width: 8rem;
   }
   .list {
     line-height: 4rem;
@@ -781,7 +785,11 @@ section {
     font-size: 3rem;
   }
   .products .slide img {
-    height: 25rem;
+    height: 35rem;
+  }
+  .product-preview .image img {
+    height: 35rem;
+    width: 10rem;
   }
   .list {
     line-height: 6rem;
@@ -793,6 +801,7 @@ section {
   .container .content img {
     width: 20rem;
     height: 15rem;
+    margin-top: -43rem;
   }
   .contact .heading {
     font-size: 4rem !important;
@@ -825,6 +834,10 @@ section {
   }
   .products .slide img {
     height: 25rem;
+  }
+  .product-preview .image img {
+    height: 30rem;
+    width: 13rem;
   }
   .list {
     line-height: 6rem;

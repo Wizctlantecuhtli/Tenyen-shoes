@@ -654,8 +654,9 @@ section{
     }
     
     .product-preview .image img{
-        height: 40rem;
-        width: 15rem;
+        width: 20rem;
+        height: 25rem;
+        // width: 10rem !important;
     }
 
     .list{
@@ -720,9 +721,14 @@ section{
         font-size: 3rem;
     }
     .products .slide img{
-        height: 20rem;
+        height: 30rem;
+        
     }
     
+    .product-preview .image img{
+        height: 30rem;
+        width: 8rem;
+    }
     .list{
             line-height: 4rem;
             background: orangered;
@@ -775,9 +781,13 @@ section{
     }
 
     .products .slide img{
-        height: 25rem;
+        height: 35rem;
     }
     
+    .product-preview .image img{
+        height: 35rem;
+        width: 10rem;
+    }
     .list{
             line-height: 6rem;
             background: blue;
@@ -792,7 +802,7 @@ section{
             img{
                 width: 20rem;
                 height: 15rem;
-                // margin-top: -43rem;
+                margin-top: -43rem;
             }
         }
        
@@ -839,6 +849,10 @@ section{
         height: 25rem;
     }
     
+    .product-preview .image img{
+        height: 30rem;
+        width: 13rem;
+    }
     .list{
             line-height: 6rem;
             background: rgb(14, 212, 30);
