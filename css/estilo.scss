@@ -628,6 +628,27 @@ section{
                 border-radius: 20px 40px;
             }
         }
+        #inst{
+            background: $pink;
+            &:hover{
+                background: $white;
+                color: $pink;
+                border-radius: 20px 40px;}
+        }
+        #fb{
+            background: #3b5998;
+            &:hover{
+                background: $white;
+                color: $pink;
+                border-radius: 20px 40px;}
+        }
+        #wapp{
+            background: green;
+            &:hover{
+                background: $white;
+                color: $pink;
+                border-radius: 20px 40px;}
+        }
         
     }
 }

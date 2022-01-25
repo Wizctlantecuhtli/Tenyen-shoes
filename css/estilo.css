@@ -663,6 +663,36 @@ section {
   border-radius: 20px 40px;
 }
 
+.footer .share #inst {
+  background: #F2059F;
+}
+
+.footer .share #inst:hover {
+  background: #fff;
+  color: #F2059F;
+  border-radius: 20px 40px;
+}
+
+.footer .share #fb {
+  background: #3b5998;
+}
+
+.footer .share #fb:hover {
+  background: #fff;
+  color: #F2059F;
+  border-radius: 20px 40px;
+}
+
+.footer .share #wapp {
+  background: green;
+}
+
+.footer .share #wapp:hover {
+  background: #fff;
+  color: #F2059F;
+  border-radius: 20px 40px;
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 100%;
