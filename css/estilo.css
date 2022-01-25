@@ -662,4 +662,157 @@ section {
   color: #F2059F;
   border-radius: 20px 40px;
 }
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+  body.active {
+    padding-left: 0;
+  }
+  header.active {
+    -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 85%;
+  }
+  .product-preview .image img {
+    height: 40rem;
+    width: 15rem;
+  }
+  .list {
+    background: gray;
+  }
+  .container {
+    margin-left: 20rem;
+  }
+  .container .content {
+    margin-top: 15rem;
+  }
+  .container .content img {
+    width: 20rem;
+    height: 15rem;
+    margin-top: -43rem;
+  }
+  .heading {
+    font-size: 4rem;
+    margin-right: 4rem;
+    margin-top: -7rem;
+  }
+  .contact {
+    width: 65rem;
+  }
+  .contact .heading {
+    margin-top: -5rem;
+    margin-left: 10rem;
+  }
+  .contact-location .ml-h3, .contact-info .ml-h3 {
+    margin-left: 22rem;
+  }
+  .contact-location .ml-table, .contact-info .ml-table {
+    margin-left: 8rem;
+  }
+  .contact-location .ml-list, .contact-info .ml-list {
+    margin-left: 8rem;
+  }
+  .contact-location .ml-map, .contact-info .ml-map {
+    margin-left: 8rem;
+  }
+  .contact-location .icons, .contact-info .icons {
+    margin-left: 8rem;
+  }
+  .back-to-top {
+    right: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+  .banner.content h3 {
+    font-size: 3rem;
+  }
+  .products .slide img {
+    height: 20rem;
+  }
+  .list {
+    line-height: 4rem;
+    background: orangered;
+  }
+  .container {
+    margin-left: 18rem;
+  }
+  .container .content {
+    margin-top: 15rem;
+  }
+  .container .content img {
+    width: 20rem;
+    height: 15rem;
+    margin-top: -43rem;
+  }
+  .contact .heading {
+    margin-top: -5rem;
+    margin-left: 0.5rem;
+  }
+  .contact-location .ml-h3, .contact-info .ml-h3 {
+    margin-left: 20rem;
+  }
+  .contact-location .ml-table, .contact-info .ml-table {
+    margin-left: 8rem;
+  }
+  .contact-location .ml-list, .contact-info .ml-list {
+    margin-left: 8rem;
+  }
+  .back-to-top {
+    right: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .banner.content h3 {
+    font-size: 3rem;
+  }
+  .products .slide img {
+    height: 25rem;
+  }
+  .list {
+    line-height: 6rem;
+    background: blue;
+  }
+  .container {
+    margin-left: 20rem;
+  }
+  .container .content img {
+    width: 20rem;
+    height: 15rem;
+  }
+  .contact .heading {
+    font-size: 4rem !important;
+    margin-right: 4rem;
+    margin-top: -10rem;
+  }
+  .contact-location .ml-h3, .contact-info .ml-h3 {
+    margin-left: 23rem;
+  }
+  .contact-location .ml-table, .contact-info .ml-table {
+    margin-left: 10rem;
+  }
+  .contact-location .ml-list, .contact-info .ml-list {
+    margin-left: 10rem;
+  }
+  .contact-location .ml-map, .contact-info .ml-map {
+    margin-left: 10rem;
+  }
+  .back-to-top {
+    right: 3rem;
+  }
+}
 /*# sourceMappingURL=estilo.css.map */

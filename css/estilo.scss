@@ -632,85 +632,196 @@ section{
     }
 }
 
-//media queries
-// @media(max-width:1200px){
+// media queries
+@media(max-width:1200px){
+    html{
+        font-size: 100%;
+    }
     
-//     body.active{
-//         padding-left: 0;
-//     }
-//     header.active{
-//         box-shadow:  0 0 0 100vw rgba(0,0,0,0.8);
-//     }
+    body.active{
+        padding-left: 0;
+    }
+    header.active{
+        box-shadow:  0 0 0 100vw rgba(0,0,0,0.8);
+    }
     
     
-// }
+}
 
-// @media(max-width:992px){
-//     html{
-//         font-size: 75%;
-//     }
-//     section{
-//         padding: 8rem 2rem;
+@media(max-width:992px){
+    html{
+        font-size: 85%;
+    }
+    
+    .product-preview .image img{
+        height: 40rem;
+        width: 15rem;
+    }
+
+    .list{
+        background: gray;
+    }
+    .container{
+        margin-left: 20rem;
+        .content{
+            margin-top: 15rem;
+
+            img{
+                width: 20rem;
+                height: 15rem;
+                margin-top: -43rem;
+            }
+        }
        
-//     }
-//     .product-preview .image img{
-//         height: 40rem;
-//         width: 15rem;
-//     }
-// .container{
-//     margin-left: 20rem;
-// }
-
-// .contact-location, .contact-info{
-//     .ml-10{
-//         margin-left: 25rem ;
-//     }
-//     .ml-5{
-//         margin-left: 20rem ;
-//     }
-//     .ml-12{
-//         margin-left: 19rem ;
-//         width: 80% !important;
-//     }
-//     .ml-2{
-//         margin-left: 14rem;
-//         width:100% !important ;
-//     }
-// }
-// }
-
-// @media(max-width:576px){
-//     html{
-//         font-size: 75%;
-//     }
-//     .banner.content h3{
-//         font-size: 3rem;
-//     }
-
-//     .products .slide img{
-//         height: 15rem;
-//     }
-//     .list{
-//             line-height: 4rem;
-//         }
-//     .container{
-//         margin-left: 12rem;
-//     }
-
-//     .contact-location, .contact-info{
-//         .ml-10{
-//             margin-left: 10rem ;
-//         }
-//         .ml-5{
-//             margin-left: 5rem ;
-//         }
-//         .ml-12{
-//             margin-left: 12rem ;
-//         }
-//         .ml-2{
-//             margin-left: 2rem ;
-//         }
-//     }
-// }
+    }
 
 
+.heading{
+    font-size: 4rem;
+    margin-right: 4rem;
+    margin-top: -7rem;
+}
+.contact{
+    width: 65rem;
+    .heading{
+        margin-top: -5rem;
+        margin-left: 10rem;
+    }
+}
+.contact-location, .contact-info{
+   
+    .ml-h3{
+        margin-left: 22rem ;
+    }
+    .ml-table{
+        margin-left: 8rem;
+    }
+    .ml-list{
+        margin-left: 8rem ;
+    }
+    .ml-map{
+        margin-left: 8rem;
+    }
+    .icons{
+        margin-left: 8rem;
+    }
+}
+.back-to-top {
+    right: 3rem ;
+}
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 75%;
+        
+    }
+    .banner.content h3{
+        font-size: 3rem;
+    }
+    .products .slide img{
+        height: 20rem;
+    }
+    
+    .list{
+            line-height: 4rem;
+            background: orangered;
+        }
+        .container{
+            margin-left: 18rem;
+            .content{
+                margin-top: 15rem;
+    
+                img{
+                    width: 20rem;
+                    height: 15rem;
+                    margin-top: -43rem;
+                }
+            }
+           
+        }
+    
+        .contact{
+            .heading{
+                margin-top: -5rem;
+                margin-left: 0.5rem;
+                
+            }
+        }
+        .contact-location, .contact-info{
+           
+            .ml-h3{
+                margin-left: 20rem ;
+            }
+            .ml-table{
+                margin-left: 8rem;
+            }
+            .ml-list{
+                margin-left: 8rem ;
+            }
+        }
+        .back-to-top {
+            right: 3rem ;
+        }
+    }
+
+
+@media(max-width:576px){
+    html{
+        font-size: 50%;
+    }
+    .banner.content h3{
+        font-size: 3rem;
+    }
+
+    .products .slide img{
+        height: 25rem;
+    }
+    
+    .list{
+            line-height: 6rem;
+            background: blue;
+        }
+
+    
+    .container{
+        margin-left: 20rem;
+        .content{
+            // margin-top: 10rem;
+
+            img{
+                width: 20rem;
+                height: 15rem;
+                // margin-top: -43rem;
+            }
+        }
+       
+    }
+
+    .contact{
+        .heading{
+            font-size: 4rem !important;
+            margin-right: 4rem;
+            margin-top: -10rem;
+        }
+    }
+    .contact-location, .contact-info{
+       
+        .ml-h3{
+            margin-left: 23rem ;
+        }
+        .ml-table{
+            margin-left: 10rem ;
+        }
+        .ml-list{
+            margin-left: 10rem ;
+        }
+        .ml-map{
+            margin-left: 10rem;
+        }
+        
+    }
+    .back-to-top {
+        right: 3rem ;
+    }
+}
