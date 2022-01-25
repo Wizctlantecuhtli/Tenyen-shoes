@@ -684,9 +684,6 @@ section {
     width: 20rem;
     height: 25rem;
   }
-  .list {
-    background: gray;
-  }
   .container {
     margin-left: 20rem;
   }
@@ -746,7 +743,6 @@ section {
   }
   .list {
     line-height: 4rem;
-    background: orangered;
   }
   .container {
     margin-left: 18rem;
@@ -793,7 +789,6 @@ section {
   }
   .list {
     line-height: 6rem;
-    background: blue;
   }
   .container {
     margin-left: 20rem;
@@ -832,6 +827,10 @@ section {
   .banner.content h3 {
     font-size: 3rem;
   }
+  .products .heading {
+    padding-top: 5rem;
+    padding-left: 5rem;
+  }
   .products .slide img {
     height: 25rem;
   }
@@ -841,7 +840,6 @@ section {
   }
   .list {
     line-height: 6rem;
-    background: #0ed41e;
   }
   .container {
     margin-left: 10rem;
