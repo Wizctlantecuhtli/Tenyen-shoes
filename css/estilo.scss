@@ -825,3 +825,65 @@ section{
         right: 3rem ;
     }
 }
+
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .banner.content h3{
+        font-size: 3rem;
+    }
+
+    .products .slide img{
+        height: 25rem;
+    }
+    
+    .list{
+            line-height: 6rem;
+            background: rgb(14, 212, 30);
+        }
+
+    
+    .container{
+        margin-left: 10rem;
+        .content{
+            // margin-top: 10rem;
+
+            img{
+                width: 20rem;
+                height: 15rem;
+                // margin-top: -43rem;
+            }
+        }
+       
+    }
+
+    .contact{
+        width: 100%;
+        .heading{
+            font-size: 4rem;
+            margin-right:4rem;
+            margin-top: -10rem;
+        }
+    }
+    .contact-location, .contact-info{
+       
+        .ml-h3{
+            margin-left: 13rem ;
+        }
+        .ml-table{
+            margin-left: 0.5rem ;
+        }
+        .ml-list{
+            margin-left: 0.5rem ;
+        }
+        .ml-map{
+            margin-left: 0.5rem;
+        }
+        
+    }
+    .back-to-top {
+        right: 3rem ;
+    }
+}

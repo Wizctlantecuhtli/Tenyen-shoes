@@ -815,4 +815,50 @@ section {
     right: 3rem;
   }
 }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .banner.content h3 {
+    font-size: 3rem;
+  }
+  .products .slide img {
+    height: 25rem;
+  }
+  .list {
+    line-height: 6rem;
+    background: #0ed41e;
+  }
+  .container {
+    margin-left: 10rem;
+  }
+  .container .content img {
+    width: 20rem;
+    height: 15rem;
+  }
+  .contact {
+    width: 100%;
+  }
+  .contact .heading {
+    font-size: 4rem;
+    margin-right: 4rem;
+    margin-top: -10rem;
+  }
+  .contact-location .ml-h3, .contact-info .ml-h3 {
+    margin-left: 13rem;
+  }
+  .contact-location .ml-table, .contact-info .ml-table {
+    margin-left: 0.5rem;
+  }
+  .contact-location .ml-list, .contact-info .ml-list {
+    margin-left: 0.5rem;
+  }
+  .contact-location .ml-map, .contact-info .ml-map {
+    margin-left: 0.5rem;
+  }
+  .back-to-top {
+    right: 3rem;
+  }
+}
 /*# sourceMappingURL=estilo.css.map */
