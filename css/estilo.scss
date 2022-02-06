@@ -216,7 +216,7 @@ section{
     width: 30rem;
     background: $yellow;
     padding: 2rem;
-    z-index: 1000;
+    z-index: 10000;
 
     &.active{
         left: 0;
