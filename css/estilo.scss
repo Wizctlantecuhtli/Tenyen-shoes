@@ -18,7 +18,7 @@ $orange:#F24405;
 $red:#ED2D34;
 $black:#000;
 $white: #fff;
-$border:.5rem solid $black;
+$border:.2rem solid $black;
 
 @mixin grid($var) {
     display:grid;
@@ -197,7 +197,7 @@ section{
     cursor: pointer;
     background: none;
     color: $black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
 
     &:hover{
@@ -412,10 +412,10 @@ section{
         .content{
             flex: 1 1 40rem;
             h3{
-                @include titleText(3rem);
+                @include titleText(2.7rem);
             }
             p{
-                @include graphText2(1.5rem);
+                @include graphText2(1.3rem);
             }
             .stars{
                 padding: 1rem 0;
@@ -654,7 +654,7 @@ section{
 }
 
 // media queries
-@media(max-width:1200px){
+@media(max-width:2000px){
     html{
         font-size: 100%;
     }
@@ -667,6 +667,151 @@ section{
     }
     
     
+}
+
+@media(min-width:1160px) and (max-width:1300px){
+    html{
+        font-size:100%;
+    }
+    
+    body.active{
+        padding-left: 0;
+    }
+    header.active{
+        box-shadow:  0 0 0 100vw rgba(0,0,0,0.8);
+    }
+
+    .product-preview 
+    {
+        margin-top: -2rem;
+        height: 45rem;
+       .image{
+
+            img{
+                // margin-top: -10rem;
+                width: 50rem !important;
+                height: 15rem;
+                // margin-left: 5rem;
+                
+                
+            }
+            
+    }}
+    .list{
+            line-height: 6rem;
+            background: #3b5998;
+        }
+
+    .contact{
+        width: 65rem;
+        .heading{
+            margin-top: -5rem;
+            margin-left: 10rem;
+        }
+    }
+    .contact-location, .contact-info{
+       
+        .ml-h3{
+            margin-left: 25rem ;
+        }
+        .ml-table{
+            margin-left: 12rem;
+        }
+        .ml-list{
+            margin-left: 12rem ;
+        }
+        .ml-map{
+            margin-left: 12rem;
+        }
+        .icons{
+            margin-left: 12rem;
+        }
+    }
+    .back-to-top {
+        right: 3rem ;
+    }
+    }
+@media(min-width:1000px) and (max-width:1150px){
+   
+    
+    
+    html{
+        font-size: 85%;
+    }
+    body.active{
+        padding-left: 0;
+    }
+    header.active{
+        box-shadow:  0 0 0 100vw rgba(0,0,0,0.8);
+    }
+    .product-preview 
+    {
+        margin-top: -2rem;
+        height: 54.5rem;
+       .image{
+
+            img{
+                width: 20rem;
+                height: 25rem;
+                
+                
+            }
+            
+    }}
+    .list{
+        line-height: 6rem;
+        background: #98963b;
+    }
+
+    
+    .container{
+        margin-left: 20rem;
+        .content{
+            margin-top: 15rem;
+
+            img{
+                width: 20rem;
+                height: 15rem;
+                margin-top: -43rem;
+            }
+        }
+       
+    }
+
+
+.heading{
+    font-size: 4rem;
+    margin-right: 4rem;
+    margin-top: -7rem;
+}
+.contact{
+    width: 65rem;
+    .heading{
+        margin-top: -5rem;
+        margin-left: 10rem;
+    }
+}
+.contact-location, .contact-info{
+   
+    .ml-h3{
+        margin-left: 22rem ;
+    }
+    .ml-table{
+        margin-left: 8rem;
+    }
+    .ml-list{
+        margin-left: 8rem ;
+    }
+    .ml-map{
+        margin-left: 8rem;
+    }
+    .icons{
+        margin-left: 8rem;
+    }
+}
+.back-to-top {
+    right: 3rem ;
+}
 }
 
 @media(max-width:992px){
@@ -903,8 +1048,8 @@ section{
             margin-top: -10rem;
         }
     }
-    .contact-location, .contact-info{
-       
+    .contact-location
+    {
         .ml-h3{
             margin-left: 13rem ;
         }
@@ -916,6 +1061,110 @@ section{
         }
         .ml-map{
             margin-left: 0.5rem;
+        }
+    }
+    .contact-info{
+
+       height: 50rem !important ;
+        .ml-h3{
+            margin-left: 13rem ;
+        }
+        .ml-table{
+            margin-left: 0.5rem ;
+        }
+        .ml-list{
+            margin-left: 0.5rem ;
+        }
+        .ml-map{
+            margin-left: 0.5rem;
+        }
+        
+    }
+    .back-to-top {
+        right: 3rem ;
+    }
+}
+
+
+@media (min-width:280px)and(max-width:380px){
+    html{
+        font-size: 50%;
+    }
+    .banner.content h3{
+        font-size: 3rem;
+    }
+
+    .products{
+        .heading{
+            padding-top: 5rem;
+            padding-left: 5rem;
+        }
+    }
+    .products .slide img{
+        height: 20rem;
+    }
+    
+    .product-preview .image img{
+        height: 30rem;
+        width: 13rem;
+    }
+    .list{
+            line-height: 6rem;
+        }
+
+    
+    .container{
+        margin-left: 8rem;
+        .content{
+            // margin-top: 10rem;
+
+            img{
+                width: 20rem;
+                height: 15rem;
+                // margin-top: -43rem;
+            }
+        }
+       
+    }
+
+    .contact{
+        width: 100%;
+        .heading{
+            font-size: 4rem;
+            margin-right:1rem;
+            margin-top: -10rem;
+        }
+    }
+    .contact-location{
+        .ml-h3{
+            margin-left: 13rem ;
+        }
+        .ml-table{
+            margin-left: 0.5rem ;
+        }
+        .ml-list{
+            margin-left: 0.5rem ;
+        }
+        .ml-map{
+            // margin-left: 0.5rem;
+            width: 130% !important;
+        }
+     
+    }
+    
+    .contact-info{
+       height: 50rem !important ;
+        .ml-h3{
+            margin-left: 13rem ;
+        }
+        .ml-table{
+            margin-left: 0.5rem ;
+        }
+        .ml-list{
+            margin-left: 0.5rem ;
+        }
+        .ml-map{
+            width: 130% !important;
         }
         
     }
