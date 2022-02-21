@@ -482,8 +482,8 @@ section {
 
 .container img:hover {
   opacity: 0.8;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 .filters {
